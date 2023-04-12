@@ -2,7 +2,7 @@
     <v-card outlined>
         <v-container>
             <v-row dense align="center" justify="center">
-                <div class="display-6" v-if="!spelling.length">Spell the word provided by clicking on the letters below</div>
+                <div class="display-6" v-if="!spelling.length">Spell the Word by clicking below elements</div>
                 <v-col
                     v-for="(e,i) in spelling"
                     :key="i"
@@ -32,7 +32,7 @@
     </v-card>
 </template>
 
-<script>
+<script lang="js">
 import Tile from "@/components/Tile.vue";
 
 export default {
@@ -51,6 +51,6 @@ export default {
 };
 </script>
 
-<style lang="stylus">
+<style lang="js">
 
 </style>
